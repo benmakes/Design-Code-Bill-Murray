@@ -1,0 +1,24 @@
+mixin nav-content()
+  ul
+    li: a(href="#section1") Section1
+    li: a(href="#section2") Section2
+    li: a(href="#section3") Section3
+    li: a(href="#section4") Section4
+    li: a(href="#section5") Section5
+    li: a(href="#section6") Section6
+    li: a(href="#section7") Section7
+    li: a(href="#section8") Section8
+
+.mobile-nav
+  +nav-content()
+
+header
+  .header-position
+    h1.logo Travis Neilson
+
+    nav.site-nav
+      +nav-content()
+
+    a(href="mailto:benjaminnotliketheothers@gmail.com").email-link +email me
+
+    .mobile-nav-toggle: span
