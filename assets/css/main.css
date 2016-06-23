@@ -622,8 +622,8 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background-image: url(http://www.fillmurray.com/950/750);
-  background-position: center bottom;
+  background-image: url(http://www.fillmurray.com/1120/450);
+  background-position: center;
   background-size: cover;
   color: #3f3f42; }
   section.about h2 {
@@ -643,7 +643,7 @@ section.about {
     max-width: 300px; } }
 
 section.youtube {
-  background-image: url(http://www.fillmurray.com/900/700);
+  background-image: url(../img/youtube-bg.gif);
   background-position: center;
   background-size: cover;
   color: white; }
@@ -704,7 +704,7 @@ section.youtube {
             transform: scale(1); } }
 
 section.mentoring {
-  background-image: url(http://fillmurray.com/800/600);
+  background-image: url(../img/mentoring-bg.jpg);
   background-position: center;
   background-size: cover;
   color: white;
@@ -922,6 +922,218 @@ section.vine {
       text-align: center; }
     section.vine .description {
       margin-top: 50px; } }
+
+.home-sections .design {
+  padding: 0px; }
+
+section.design {
+  color: white; }
+  section.design .home-lead {
+    text-align: center;
+    font-size: 30px; }
+  section.design .dribbble, section.design .behance {
+    background-color: #ea4c89;
+    background-image: url(/assets/img/design-bg.png);
+    background-position: center;
+    padding: 50px 0;
+    -webkit-transition: background-color 150ms ease-in-out;
+    transition: background-color 150ms ease-in-out; }
+    section.design .dribbble.behance, section.design .behance.behance {
+      background-color: #1769ff; }
+      section.design .dribbble.behance .home-cta, section.design .behance.behance .home-cta {
+        color: #1769ff; }
+  section.design .home-cta {
+    font-size: 24px;
+    color: #ea4c89; }
+  section.design .design-img-link {
+    display: block;
+    float: left;
+    width: -webkit-calc(50% - 14px);
+    width: calc(50% - 14px);
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    -webkit-transition: -webkit-transform 150ms ease-in-out;
+    transition: -webkit-transform 150ms ease-in-out;
+    transition: transform 150ms ease-in-out;
+    transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out; }
+    section.design .design-img-link:hover {
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1); }
+    section.design .design-img-link img {
+      width: 100%;
+      display: block; }
+  section.design .cf {
+    clear: both;
+    margin-bottom: 20px; }
+
+section.notes {
+  background-image: url(../img/notes-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white; }
+  section.notes .home-lead {
+    text-align: center; }
+  section.notes .col-1 {
+    padding-left: 30px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.8; }
+    section.notes .col-1:first-child {
+      padding-left: 0;
+      padding-right: 30px;
+      text-align: right;
+      border-right: solid 2px white; }
+    @media (max-width: 640px) {
+      section.notes .col-1 {
+        padding: 0 10px; }
+        section.notes .col-1:first-child {
+          padding: 0 10px;
+          text-align: left;
+          border: none; } }
+  section.notes a {
+    color: white;
+    text-decoration: underline; }
+  section.notes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  section.notes p {
+    margin: 0; }
+  section.notes .form-display {
+    background: rgba(255, 255, 255, 0.3);
+    border: 4px solid white;
+    -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 50px 0; }
+    @media (max-width: 590px) {
+      section.notes .form-display {
+        display: block; } }
+    section.notes .form-display .mc-field-group {
+      position: relative;
+      -webkit-box-flex: 2;
+      -webkit-flex: 2;
+          -ms-flex: 2;
+              flex: 2; }
+      section.notes .form-display .mc-field-group:first-child {
+        border-right: 4px white solid; }
+        @media (max-width: 590px) {
+          section.notes .form-display .mc-field-group:first-child {
+            border-right: none;
+            border-bottom: 4px solid white; } }
+    section.notes .form-display input {
+      position: relative;
+      border: 0;
+      background: none;
+      padding: 0;
+      display: block;
+      height: 60px;
+      width: 100%;
+      padding: 0 10px;
+      font-size: 18px; }
+      section.notes .form-display input:focus {
+        outline: none; }
+      section.notes .form-display input[type="submit"] {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        background: white;
+        color: #ba9e44;
+        font-size: 24px;
+        padding: 0 15px; }
+    section.notes .form-display label {
+      position: absolute;
+      z-index: 2;
+      font-size: 12px;
+      left: 10px; }
+
+section.podcast {
+  background-image: url(../img/podcast-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white; }
+  section.podcast .home-lead {
+    text-align: center; }
+  section.podcast .podcast-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px; }
+    @media (max-width: 400px) {
+      section.podcast .podcast-content {
+        display: block;
+        text-align: center; }
+        section.podcast .podcast-content .podcast-thumb {
+          margin: 0; } }
+  section.podcast .podcast-thumb {
+    margin-right: 30px; }
+    @media (max-width: 640px) {
+      section.podcast .podcast-thumb img {
+        width: 100px;
+        height: 100px; } }
+  section.podcast .podcast-text {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  section.podcast .title {
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 20px; }
+  section.podcast .web {
+    color: white;
+    background: #8d16de; }
+    @media (max-width: 640px) {
+      section.podcast .web {
+        margin-bottom: 20px;
+        display: block; } }
+  section.podcast .itunes {
+    color: white;
+    background: #13cbdf; }
+
+.home-footer a {
+  color: white;
+  background: #e24040;
+  display: block;
+  width: 100%;
+  line-height: 6;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+  -webkit-transition: background 150ms ease-in-out;
+  transition: background 150ms ease-in-out; }
+  @media (max-width: 895px) {
+    .home-footer a {
+      font-size: 50px; } }
+  @media (max-width: 650px) {
+    .home-footer a {
+      font-size: 35px; } }
+  @media (max-width: 450px) {
+    .home-footer a {
+      font-size: 20px; } }
+  .home-footer a:hover {
+    background: #d82121; }
 
 .home-wrap {
   display: -webkit-box;
