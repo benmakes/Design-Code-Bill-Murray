@@ -1,5 +1,5 @@
 name: Travis Neilson
-markdown: redcarpet
+markdown: kramdown
 baseurl: '/Design-Code-Bill-Murray'
 exclude: ["node_modules",
   "gulpfile.js",

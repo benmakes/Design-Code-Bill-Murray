@@ -504,7 +504,7 @@ body {
     text-indent: 101%;
     white-space: nowrap;
     max-width: 135px;
-    background-image: url({{site.baseurl}}/assets/img/bm-logo.svg);
+    background-image: url(../assets/img/bm-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -933,7 +933,7 @@ section.design {
     font-size: 30px; }
   section.design .dribbble, section.design .behance {
     background-color: #ea4c89;
-    background-image: url(/assets/img/design-bg.png);
+    background-image: url(../assets/img/design-bg.png);
     background-position: center;
     padding: 50px 0;
     -webkit-transition: background-color 150ms ease-in-out;
