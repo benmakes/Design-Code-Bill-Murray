@@ -622,7 +622,7 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  background-image: url(../img/bill3.jpg);
+  background-image: url(../img/bmhero.png);
   background-position: center;
   background-size: cover;
   color: #3f3f42; }
