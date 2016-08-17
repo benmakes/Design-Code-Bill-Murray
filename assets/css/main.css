@@ -623,7 +623,7 @@ body {
 
 section.about {
   background-image: url(../img/bmhero.png);
-  background-position: center;
+  background-position: -100px center;
   background-size: cover;
   color: #3f3f42; }
   section.about h2 {
