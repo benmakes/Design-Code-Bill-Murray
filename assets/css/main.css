@@ -625,9 +625,9 @@ section.about {
   background-image: url(../img/bmhero.png);
   background-position: center bottom;
   background-size: cover;
-  color: #FFF; }
+  color: #3f3f42; }
   section.about h2 {
-    color: #FFF;
+    color: #3f3f42;
     font-size: 60px;
     font-weight: 400;
     line-height: 1;
